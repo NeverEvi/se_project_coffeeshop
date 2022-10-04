@@ -1,4 +1,8 @@
-
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 202px;
+}
 .nav__links {
 	list-style: none;
 	padding-left: 0;
