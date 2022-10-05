@@ -1,71 +1,79 @@
 .footer {
-	background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	color: #ffffff;
-	margin-top: 0;
-	margin-bottom: 0;
-	position: relative;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
 }
 .footer__content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-	margin-left: 80px;
-	margin-right: 100px;
-	padding-top: 60px;
+  margin-left: 80px;
+  margin-right: 100px;
+  padding-top: 60px;
 }
 .footer__logo {
-	height: 21px;
-	width: 116px;
+  height: 21px;
+  width: 116px;
 }
 
 .footer__list {
-	list-style: none;
-	margin-top: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .footer__social-heading {
-	margin-bottom: 20px;
-	margin-top: 0;
-	font-family: Inter;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: end;
 }
 
 .footer__list-item {
-	margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+.footer__list-item:nth-of-type(2) {
+  margin-bottom: 0;
+}
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
 }
 
-.footer__social-icon {
-	height: 16px;
-	width: 16px;
-	margin-right: 10px;
-}
 
 .footer__social-link {
-	transition: color 1s linear;
-	font-family: Inter;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
+  transition: color 1s linear;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__social-link:hover {
-	color: #c1c1c1;
+  color: #c1c1c1;
 }
 
 .footer__copyright {
-	padding-bottom: 60px;
-	margin-left: 80px;
-	font-family: Inter;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-top: 108px;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }

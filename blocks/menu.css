@@ -1,44 +1,44 @@
 .menu {
-	background-color: #0a2750;
-	background-image: url("../images/background_menu.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	color: #ffffff;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  background-color: #0a2750;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu__title {
-	margin-top: 100px;
-	margin-bottom: 24px;
-	max-width: 780px;
-	text-align: center;
-	font-family: Inter;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 44px;
-	line-height: 52px;
+  margin-top: 100px;
+  margin-bottom: 24px;
+  max-width: 780px;
+  text-align: center;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menu__subtitle {
-	font-family: Noto serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 30px;
-	max-width: 780px;
-	text-align: center;
-	margin-top: 0;
-	margin-bottom: 100px;
+  font-family: "Noto Serif", Times New Roman, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
 }
 .menu__cards {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	gap: 0 100px;
-	
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 100px;
+  
 }
